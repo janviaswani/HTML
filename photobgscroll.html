@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Scrolling Background</title>
+    <style>
+        body {
+            background-image: url("myphoto.png"); /* your image */
+            background-size: cover;   /* fit full screen */
+            background-repeat: no-repeat; 
+            background-attachment: scroll; /* ✅ makes it scroll */
+        }
+
+        .content {
+            height: 2000px; /* just to make the page long enough to scroll */
+            color: black;
+            text-align: center;
+            padding-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Scrolling Background Example</h1>
+        <p>Scroll down to see the background image move.</p>
+        <p>Keep adding content to make scrolling more visible.</p>
+    </div>
+</body>
+</html>
